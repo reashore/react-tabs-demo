@@ -16,4 +16,5 @@ const withLoader = <P extends object>(
   ) : (
     <Component {...props} />
   );
+
 export default withLoader;
